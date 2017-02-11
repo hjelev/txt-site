@@ -1,0 +1,6 @@
+
+How to extract tar.gz archive:
+
+tar -xvzf file_name.tar.gz
+
+[//]: # "- []() - "

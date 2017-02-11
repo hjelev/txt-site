@@ -1,0 +1,65 @@
+html,body{margin:0;padding:0}
+.hover_img a { position:relative; }
+.hover_img a span { position:absolute; display:none; z-index:99; left: -250px; top: -150px;}
+.hover_img a:hover span { display:block; }
+body{font: 76% arial,sans-serif;text-align:center}
+p{margin:0 10px 10px}
+a{padding:5px; text-decoration:none; color:#000000;}
+.tablesorter tr:hover td{background:#F3F2ED;}
+div#header{background-color:#F3F2ED;}
+div#header h1{height:80px;line-height:80px;margin:0;padding-left:10px;}
+div#hnav{background-color:#CCC8B3;line-height:20px;margin:0;padding-left:10px;}
+div#container{text-align:left}
+div#content p{line-height:1.4}
+div#navigation{background:#F6F0E0;}
+div#navigation ul{margin:15px 0; padding:0; list-style-type:none;}
+div#navigation li{margin-bottom:5px;}
+div#extra{background:#CCC8B3;}
+div#footer{background:#BFBD93;}
+div#footer p{margin:0;padding:5px 10px}
+div#container{width:1000px;margin:0 auto}
+div#wrapper{float:left;width:100%}
+div#content{margin: 0 0px}
+
+div#extra{float:left;width:150px;margin-left:-150px}
+div#footer{clear:left;width:100%}
+/* tables */
+table.tablesorter {
+	font-family:arial;
+	background-color: #CDCDCD;
+	margin:10px 0pt 15px;
+	font-size: 8pt;
+	width: 100%;
+	text-align: left;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #e6EEEE;
+	border: none;
+	font-size: 8pt;
+	padding: 4px;
+
+}
+table.tablesorter thead tr .header {
+	background-image: url(/static/images/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(/static/images/asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(/static/images/desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+background-color: #8dbdd8;
+}
